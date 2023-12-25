@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      }
+    },
+    "pattern": [
+      "IDG",
+      "IRI",
+      "III"
+    ],
+    "result": {
+      "count": 1,
+      "item": "digimobs:digivice"
+    }
+}

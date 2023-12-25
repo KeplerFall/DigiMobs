@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients":[
+        {
+            "item": "digimobs:digivice_block"
+        }
+    ],
+    "result": {
+        "item": "digimobs:digivice",
+        "count": 9
+    }
+}
