@@ -1,0 +1,6 @@
+{
+    "parent": "digimobs:block/digivice_block",
+    "textures": {
+        "all": "digimobs:item/digivice"
+    }
+}

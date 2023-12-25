@@ -1,0 +1,7 @@
+{
+    "variants":{
+        "": {
+            "model": "digimobs:block/digivice_block"
+        }
+    }
+}

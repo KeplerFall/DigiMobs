@@ -1,6 +1,7 @@
 package com.taverna.digimobs;
 
 import com.mojang.logging.LogUtils;
+import com.taverna.digimobs.block.ModBlocks;
 import com.taverna.digimobs.item.ModItems;
 
 import net.minecraft.client.Minecraft;
@@ -68,6 +69,7 @@ public class DigiMobs
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -108,6 +110,7 @@ public class DigiMobs
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(EXAMPLE_BLOCK_ITEM);
             event.accept(ModItems.DIGIVICE);
+            event.accept(ModBlocks.DIGIVICE_BLOCK);
         }
             
     }
